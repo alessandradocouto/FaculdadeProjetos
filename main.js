@@ -49,16 +49,13 @@
 
     var linksPromo = document.querySelectorAll('.lisDestaq-link'); //pego o conjunto de arrays
 
-    // linksPromo[0].addEventListener("click", function(){ 
-    //     janelaPromocao(0); }, false);
+    linksPromo[0].addEventListener("click", function(){ janelaPromocao(0); }, false);
     
-    // linksPromo[1].addEventListener("click", function(){ 
-    //     janelaPromocao(1); }, false);
+    linksPromo[1].addEventListener("click", function(){ janelaPromocao(1); }, false);
             
-    // linksPromo[2].addEventListener("click", function(){ 
-    //     janelaPromocao(2); }, false);
+    linksPromo[2].addEventListener("click", function(){ janelaPromocao(2); }, false);
 
-    
+    //outro jeito de fazer:
     //promocoes[ 0 ] = [ 'Death Note', 'DeathNoteA110','Série Completa', 'Formato DVD - 5 discos ', 90, 85 ];
     //promocoes[ 1 ] = [ 'Naruto Gold', 'NarutoGoldA110', 'Mangá em Português', '55 volumes ', 1100, 1000 ];
     //promocoes[ 2 ] = [ 'Naruto Shippuden', 'NarutoFigA110', 'Action figure em PVC', '', 250, 210 ];
@@ -132,6 +129,7 @@
     itemCatalogo[5].addEventListener("click", function(){ mostraCatalogo(5); }, false);
     
 
+    //outro jeito de fazer:
     // var catalogoPP = [];
 
     // catalogoPP[0] = ['NarShipB1T01A300', 60 ];
