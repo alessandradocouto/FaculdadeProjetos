@@ -1,0 +1,11 @@
+section{
+    text-align: center; /*centralizar img e h1 */
+}
+
+h1, p{
+    color: rgb(206, 22, 22);
+}
+
+.line {
+    text-decoration: line-through;
+}

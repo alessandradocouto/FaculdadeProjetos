@@ -1,0 +1,281 @@
+/* Alessandra do Couto - 20113050090 - Polo Rocinha */
+
+header{
+    padding: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.imglogo{
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+}
+
+nav{
+    padding: 4px;
+    border-bottom: 2px solid #BB0D0D;
+    margin: 2px;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+}
+
+.menu{
+    margin: 1px auto;
+}
+
+.menu li{
+    margin: 0px 4px 0px 4px; 
+    padding-top: 0px 4px 0px 4px;
+    width: 100px;
+    display: inline-block; 
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #FF0000;
+}
+
+a:visited{
+    color: #EE0000;
+}
+
+body, h1{
+    background-color: #FFFFFF;
+    color: #BB0D0D;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    /* border: 3px solid indigo;*/
+}
+
+.apres{
+    text-align: center;
+    font-size: 18px;
+}
+
+.ender{
+    text-align: center;
+    font-size: 14px;
+    border-top: 2px solid #BB0D0D;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Destaques */
+
+
+.itemDestaq{  /* janela JS */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title{
+    text-align: left;
+}
+
+.apres2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.lisDestaq{  /* ol  */
+    list-style: katakana;
+    color: #2255AA;
+}
+
+.itemDesProd{ /* li com square  */
+    list-style: square;
+    margin: 0 20px 30px auto;
+}
+
+.line{
+    text-decoration-line: line-through;
+}
+
+.newprice{
+    color:#FF0000;
+    font-weight: bold;
+}
+
+.itemDestaq-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgDestaq{  /* class com imagens */
+    margin: 10px;
+}
+
+
+/* Catalogo */
+
+.tabInfo{
+    font-family: Arial;
+    margin-top: 6px;
+    border-collapse: collapse; /* não funcionou no firefox */
+    background-color: #FFFFCC;
+    color: #2255AA;
+}
+
+.linTH{
+    color: #FFFFFF;
+    background-color: #0077BB;
+    vertical-align: middle;
+    text-align: center;
+}
+
+td, th{
+    border: 2px solid #000000;
+    padding:6px 12px 6px 12px;
+}
+
+.colTH{
+    color: #005599;
+    font-weight: bold;
+    background-color: #FFCC77;
+    text-align: left;
+}
+
+.colTH-2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.apres3 img{  /* referente as imagens do catalogo */
+    margin: auto;
+    display: block;
+}
+
+.preco{
+    color: #CC0000;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Compras */
+
+fieldset{
+    color: #2255AA;
+    background-color: #FFFFCC;
+    margin: 20px 10px 0px 10px;
+}
+
+.fsDados{
+    width: 510px;
+}
+
+.meiaLinDir{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+
+.meiaLinEsq{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fsDir{
+    flex-basis: 255px;
+    margin: 0px 0px 6px 0px;
+}
+
+.fsEsq{
+    display: inline-block;
+    margin: 0px 0px 6px 0px;
+}
+
+.divLinha{
+    display: inline;
+    margin-bottom: 18px;
+}
+
+.divlinha-endereco{
+    margin-top: 18px;
+    display: inline-block;
+}
+
+.divLinha-dir{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+}
+
+.colPri{
+    display: inline-block;
+    width: 84px;
+}
+
+input{
+    border-radius: 4px;
+}
+
+.impGrande {
+    width: 390px;
+}
+
+.impMedio{
+    width: 120px;
+}
+
+.impTelef{
+    width: 90px;
+}
+
+.numDD{
+    width: 40px;
+}
+
+.numQD{
+    width: 60px;
+}
+
+.impNCC{
+    width: 130px;
+}
+
+.botoes{
+    margin: 12px 10px 12px 10px;
+    text-align: left;
+}
+
+/* janela JS*/
+
+.imgJan {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #226699;
+    padding: 12px;
+    background-color: #FFFFFF;
+}
+
+/* Janela JS criada */
+
+.container, .details  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
