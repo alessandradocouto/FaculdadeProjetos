@@ -13,12 +13,12 @@ Questão 2
 Com a seleção do link “Catalogo” a tabela fique com o aspecto mostrado na figura 4. Uma figura vazia (“Vazio.jpg”) aparece centralizada na terceira coluna da tabela (figura 4).
 
 
-![link Catalogo com figura vazia](https://github.com/alessandradocouto/FaculdadeProjetos/blob/master/imagens/imagem2.png)
+![link Catalogo com figura vazia](https://github.com/alessandradocouto/FaculdadeProjetos/blob/master/imagens/imagem3.png)
 
 a) Crie um vetor em javascript contendo, para cada produto, duas informações: o
 nome do arquivo de sua foto e seu preço.
 
-![foto do produto ao clicar no link desejado](https://github.com/alessandradocouto/FaculdadeProjetos/blob/master/imagens/imagem3.png)
+![foto do produto ao clicar no link desejado](https://github.com/alessandradocouto/FaculdadeProjetos/blob/master/imagens/imagem2.png)
 
 b) Os itens da coluna “Descrição” devem virar links. Ao selecionar um dos links,
 será chamada uma função javascript que mostrará na quarta coluna a foto e o
